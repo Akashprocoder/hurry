@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my flight details</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .bgimage {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 89.3vh;
+            position: relative;
+            animation: slideBackground 19s infinite;
+        }
+
+        @keyframes slideBackground {
+
+            0%,
+            28.57% {
+                background-image: url(https://c1.wallpaperflare.com/preview/828/669/146/sunset-dusk-sky-clouds.jpg);
+            }
+
+            28.57%,
+            57.14% {
+                background-image: url(https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM=);
+            }
+
+            57.14%,
+            89.71% {
+                background-image: url(data:image/jpeg;base64,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);
+            }
+            89.71%,
+            100% {
+                background-image: url(https://c1.wallpaperflare.com/preview/828/669/146/sunset-dusk-sky-clouds.jpg);
+            }
+        }
+    </style>
+    <p></p>
+
+</head>
+
+<body>
+    <div class="bgimage">
+    </div>
+    <i class="material-icons">search</i>
+    <i class="material-icons">account_circle</i>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

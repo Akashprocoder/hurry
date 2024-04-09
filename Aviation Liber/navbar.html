@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Bar</title>
+  <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+  <div class="bgimage">
+  <header>
+    
+      <nav>
+        <ul class="navbar">
+          <li><a href="#" class="brand">Aviation Liber</a></li>
+          <li class="dropdown" id="dropdown">
+            <a href="#" class="dropbtn" id="dropbtn">Login</a>
+            <div class="dropdown-content" id="dropdown-content">
+              <div class="login-container">
+                <h2>Login</h2>
+                <form action="#">
+                  <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                  </div>
+                  <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                  </div>
+                  <div class="input-group">
+                    <button type="submit">Login</button>
+                  </div>
+                </form>
+                <div class="social-login">
+                  <p>Or login with:</p><br>
+                  <hr>
+                  <ul>
+                    <li><a href="#">login with google</a></li>
+                    <li><a href="#">Login with Facebook</a></li>
+                    <li><a href="#">Login with Instagram</a></li>
+
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">flight status</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">feedback</a></li>
+        </ul>
+      </nav>
+  </header>
+  
+</div>
+  
+  <script src="navbar.js"></script>
+</body>
+
+</html>
